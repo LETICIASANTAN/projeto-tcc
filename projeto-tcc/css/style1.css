@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: arial,sans-serif;
+    background-color: azure;
+}
+p{
+    text-align: center;
+}
+img{
+    text-align: center;
+    height:400px ;
+    width: 550px;
+}
+.container{
+    text-align: center;
+    height:400px ;
+    width: 550px; 
+}
+footer{
+    img{
+        height:55px ;
+        width: 50px;
+    }
+   
+}
+
+

@@ -1,0 +1,30 @@
+body{
+    font-family: arial,sans-serif;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th,td{
+    border:1 px solid #ddd;
+    padding: 10 px;
+    text-align: left;
+
+}
+th{
+    background-color: #f0f0f0;
+
+}
+#nov0-equipamento{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10 px, 20 px;
+    border:none ;
+    border-radius:5 px ;
+    cursor: pointer;
+
+}
+#novo-equipamento:hover{
+    background-color: #3e8e41;
+}

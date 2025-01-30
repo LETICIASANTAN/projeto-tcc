@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>cadastro</title>
+</head>
+<body>
+  <div class="container">
+    <h1>cadastro</h1>
+    <form action ="cadastro.php" method="post">
+        <label>Nome:</label>
+        <input type="text" name="nome" required placeholder="joana">
+        <br><br>
+        <label>usuario:</label>
+        <input type="text" name="usuario" required placeholder="jo_ana">
+        <br><br>
+        <label>senha:</label>
+        <input type="password" name="senha" required placeholder="1234">
+        <br><br>
+        <button type="submit">cadastrar</button>
+    </form>
+    <div id="mensagem-erro">
+  </div> 
+  
+</body>
+</html>
